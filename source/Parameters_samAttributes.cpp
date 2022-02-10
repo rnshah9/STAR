@@ -20,7 +20,7 @@ void Parameters::samAttributes(){//everything related to SAM attributes
     outSAMattrPresent.vG=false;
     outSAMattrPresent.vW=false;
     outSAMattrPresent.rB=false;
-    outSAMattrPresent.ha=false;
+    outSAMattrPresent.ht=false;
 
     outSAMattrPresent.CR=false;
     outSAMattrPresent.CY=false;
@@ -89,9 +89,9 @@ void Parameters::samAttributes(){//everything related to SAM attributes
         } else if (vAttr1.at(ii)== "vW") {
             outSAMattrOrder.push_back(ATTR_vW);
             outSAMattrPresent.vW=true;
-        } else if (vAttr1.at(ii)== "ha") {
-            outSAMattrOrder.push_back(ATTR_ha);
-            outSAMattrPresent.ha=true;            
+        } else if (vAttr1.at(ii)== "ht") {
+            outSAMattrOrder.push_back(ATTR_ht);
+            outSAMattrPresent.ht=true;            
         } else if (vAttr1.at(ii)== "RG") {
             outSAMattrOrder.push_back(ATTR_RG);
             outSAMattrOrderQuant.push_back(ATTR_RG);

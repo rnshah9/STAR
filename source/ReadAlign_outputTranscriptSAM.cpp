@@ -316,9 +316,9 @@ uint ReadAlign::outputTranscriptSAM(Transcript const &trOut, uint nTrOut, uint i
                         *outStream<< "\tMC:Z:" <<matesCIGAR[1-imate];
                     };
                     break;
-                case ATTR_ha:
+                case ATTR_ht:
                     if (mapGen.pGe.transform.type==2) {
-                        *outStream<< "\tha:i:" <<trOut.haploType;
+                        *outStream<< "\tht:i:" <<trOut.haploType;
                     };
                     break;                    
                     

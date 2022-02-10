@@ -364,6 +364,11 @@ int ReadAlign::alignBAM(Transcript const &trOut, uint nTrOut, uint iTrOut, uint 
                             attrN+=bamAttrArrayWrite( (int32) waspType, "vW", attrOutArray+attrN );
                         break;
                     };
+                    case ATTR_ht:
+                    {
+                        attrN+=bamAttrArrayWrite( (int32) trOut.haploType, "ht", attrOutArray+attrN);
+                        break;
+                    };
 
                     case ATTR_ch:
                         if (alignType<=-10)

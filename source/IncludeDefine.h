@@ -102,7 +102,7 @@ typedef uint8_t uint8;
 #define ATTR_sM 25
 #define ATTR_sS 26
 #define ATTR_sQ 27
-#define ATTR_ha 28
+#define ATTR_ht 28
 #define ATTR_cN 29
 #define ATTR_gx 30
 #define ATTR_gn 31
