@@ -1,0 +1,6 @@
+project: rnshah9/star
+target: star
+
+cmds:
+  - cmd: /repo/source/STAR --genomeDir test --genomeFastaFiles @@ --runMode genomeGenerate
+    filepath: /repo/source/test/test.fq
